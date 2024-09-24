@@ -1,13 +1,10 @@
-# img-ldr-PS5
+# img-ldr-PS5 (1.xx-4.xx)
 
 ## Prerequisites
 - elfldr.elf
 - shsrv.elf
 - ftpsrv.elf
 
-This app is also compatible with websrv.
-
-For more information and access to required payloads, please visit: [PS5 Payload Dev](https://github.com/ps5-payload-dev)
 
 ## How to Use
 1. Send the elfldr.elf payload to port 9020 of your PS5.
@@ -18,4 +15,4 @@ For more information and access to required payloads, please visit: [PS5 Payload
 6. Run the command `hbldr /data/img-ldr.elf /data/img."png|jpg|bmp"` or `hbldr /data/path_to_image_or_directory"`.
 
 ## Credits
-Credits to J. Tornblom for the SDK, SDL2 port for PS5, and other payloads.
+J. Tornblom - SDK and other payloads.
